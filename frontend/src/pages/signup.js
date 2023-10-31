@@ -10,16 +10,22 @@ const SignUp = () => {
                 height: "100vh"
             }}
         >
-            <div
+            
+            <div className = "sign-up-info"
                 style={{
                     display: "flex",
                     flexDirection: "column",
+                    alignItems: "center",
                 }}
             >
-                <h1>Sign up!</h1>
-                <input placeholder="Email" type="email"/>
-                <input placeholder="Password"/>
-                <button>Sign Up</button>
+                <div className="ride-emory">
+                {/* <img className="icon" src="../../pe-logo-w-border-small.png"> */}
+                    RIDEmory
+                </div>
+                <p className="small-text">Welcome! Let's get started!</p>
+                <input className = "email" placeholder="Email" type="email"/>
+                <input className = "password" placeholder="Password"/>
+                <button className = "sign-up-button">Sign Up</button>
             </div>
         </div>
     );
