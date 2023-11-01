@@ -20,7 +20,7 @@ const SignUp = () => {
             >
                 <div className="ride-emory">
                 {/* <img className="icon" src="../../pe-logo-w-border-small.png"> */}
-                    RIDEmory hello hi
+                    RIDEmory
                 </div>
                 <p className="small-text">Welcome! Let's get started!</p>
                 {/* <form id="sign-in"> */}
