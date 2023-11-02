@@ -45,6 +45,7 @@ window.onload=function(){
         const password = signupForm['password'].value;
 
         console.log(email);
+        console.log(password);
     })
 }
 
