@@ -65,6 +65,11 @@
   justify-content: center;
   width:100%;
 }
+.sign-up-button:hover{
+  cursor: pointer;
+  background-color: #254da2;
+}
+
 
 .sign-up-info{
   padding: 100px;
