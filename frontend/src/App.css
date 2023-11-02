@@ -44,11 +44,13 @@
   border-style: solid;
   margin-bottom:30px;
   box-shadow: 3px 3px 5px rgba(0,0,0,0.15);
-  width: 300px;
   border-radius:4px;
   border-color:lightgray;
   border-width:1px;
+  display:flex;
+  width:300px;
 }
+
 .password{
   margin-bottom:45px;
 }
@@ -59,7 +61,9 @@
   background-color: #0033a0;
   color:white;
   border-radius:4px;
-  width: 330px;
+  display:flex;
+  justify-content: center;
+  width:100%;
 }
 
 .sign-up-info{
@@ -67,7 +71,8 @@
   border-style:none;
   border-radius:5px;
   box-shadow: 0px 0px 5px rgba(0,0,0,0.35);
-
+  max-width: 500px;
+  width:100%;
 }
 
 .ride-emory{
