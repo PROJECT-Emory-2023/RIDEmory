@@ -2,6 +2,39 @@
     width:100px;
 }
 
+.landingpg{
+    margin-bottom: 2000px;
+}
+
+h1{
+    font-family: roboto;
+}
+
+.input-info{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.going-to-div{
+    background-color: aqua;
+}
+
+.from-div{
+
+}
+
+
+.search-btn-div{
+}
+
+.search-btn{
+    background-color: #064E89;
+    color: white;
+    width:100px;
+}
+
+
 @media (min-width:800px){
     h3{
         display: none;
