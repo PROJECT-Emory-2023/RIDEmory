@@ -1,3 +1,9 @@
 .thing{
     width:100px;
 }
+
+@media (min-width:800px){
+    h3{
+        display: none;
+    }
+}
