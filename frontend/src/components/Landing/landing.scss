@@ -1,16 +1,12 @@
-.please{
-    flex:1;
-    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
-    border-style: none;
-    height:57px;
-    border-color:black;
-    border-radius:2px;
-    margin:10px;
+@use "../../assets/scss/" as *;
 
-}
+// .landingpg{
+//     background-image: "../../assets/images/Header BG.png";
+// }
 
-.landingpg-section-1{
-    padding: 0px 200px;
+// Content 1 
+.landingpg .landingpg-content-1{
+    padding: 100px 200px;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -18,7 +14,7 @@
     background-color: azure;
 }
 
-.search-btn{
+.landingpg .landingpg-content-1 .search-btn{
     background-color: #064E89;
     color: white;
     width:112px;
@@ -30,19 +26,23 @@
     cursor:pointer;
 }
 
-.p1{
+
+.landingpg p{
     padding:0px 50px;
     font-size:26px;
     font-weight:bold;
 }
-.landingpg-section-2{
+
+
+// Content 2
+.landingpg .landingpg-content-2 {
     padding:10px 50px;
     box-sizing:border-box;
     display: flex;
     justify-content: center;
 }
 
-.landingpg-big-box{
+.landingpg .landingpg-content-2 .landingpg-big-box{
     background-color: #064E89;
     border-radius:5px;
     box-sizing:border-box;
@@ -53,31 +53,15 @@
     justify-content: space-between;
     align-items: center;
 }
-.box-info{
+
+.landingpg .landingpg-content-2 p{
     color:white;
     font-size:24px;
 }
-.box{
+
+.landingpg .landingpg-content-2 .box{
     background-color: white;
     width:280px;
     height:104px;
     border-radius:15px;
-}
-
-
-
-.landingpg{
-    margin-bottom: 2000px;
-}
-
-h1{
-    font-family: roboto;
-}
-
-
-
-@media (min-width:800px){
-    h3{
-        display: none;
-    }
 }
