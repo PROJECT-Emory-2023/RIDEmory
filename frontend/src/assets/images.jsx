@@ -8,6 +8,8 @@ import footerLogo from './images/logo-footer.png'
 import address1 from './images/address-1.png'
 import address2 from './images/address-2.png'
 import address3 from './images/address-3.png'
+import headerbg from './images/headerbg.png'
+import location from './images/location.png'
 export {
     logo,
     headerbus,
@@ -19,4 +21,6 @@ export {
     address1,
     address2,
     address3,
+    headerbg,
+    location,
 }
