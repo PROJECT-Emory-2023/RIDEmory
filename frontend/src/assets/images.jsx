@@ -8,9 +8,9 @@ import footerLogo from './images/logo-footer.png'
 import address1 from './images/address-1.png'
 import address2 from './images/address-2.png'
 import address3 from './images/address-3.png'
-import headerbg from './images/headerbg.png'
+import headerbg from './images/headerbg.svg'
 import location from './images/location.png'
-import arrow from './images/arrow-1.png'
+import arrow from './images/arrow-1.svg'
 
 export {
     logo,

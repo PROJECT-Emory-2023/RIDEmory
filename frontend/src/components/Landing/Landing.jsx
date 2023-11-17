@@ -7,9 +7,14 @@ const Landing = () => {
     return (
         <div className="landingpg">
             <div className="landingpg-content-1">
-                <input type="text" placeholder="Going to" id="going" />
-                {/* <img src={location} alt="location logo" /> */}
-                <input type="text" placeholder="From" id="from" />
+                <div class="landingpg-input">
+                    <img src={location} alt="location logo" />
+                    <input type="text" placeholder="Going to" id="going" />
+                </div>
+                <div class="landingpg-input">
+                    <img src={location} alt="location logo" />
+                    <input type="text" placeholder="From" id="from" />
+                </div>
                 <Button className="search-btn"><p className="search-btn-p">Search</p></Button>
             </div>
             <p className="words">Plan your travels</p>
