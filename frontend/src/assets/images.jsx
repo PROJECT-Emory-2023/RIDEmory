@@ -10,6 +10,8 @@ import address2 from './images/address-2.png'
 import address3 from './images/address-3.png'
 import headerbg from './images/headerbg.png'
 import location from './images/location.png'
+import arrow from './images/arrow-1.png'
+
 export {
     logo,
     headerbus,
@@ -23,4 +25,5 @@ export {
     address3,
     headerbg,
     location,
+    arrow,
 }

@@ -5,15 +5,22 @@
 //     background-image: "../../assets/images/Header BG.png";
 // }
 //ask about the background image, the location image, and the font family
+.landingpg{
+    background-color: beige;
+}
+
+*{
+    font-family:'Arial';
+}
+
 
 // Content 1 
 .landingpg .landingpg-content-1{
-    padding: 190px 290px;
+    padding: 190px 315px 100px 315px;
     display:flex;
     align-items: center;
     justify-content: space-between;
     box-sizing:border-box;
-    background-color: gray;
 }
 
 .landingpg .landingpg-content-1 input{
@@ -24,6 +31,7 @@
     border-radius: 15px;
     padding:20px 70px;
     font-size:14px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 
 }
 
@@ -56,12 +64,11 @@
     box-sizing:border-box;
     display: flex;
     justify-content: center;
-    background-color: lightgray;
 }
 
 .landingpg .landingpg-content-2 .landingpg-big-box{
     background-color: #064E89;
-    border-radius:5px;
+    border-radius:15px;
     box-sizing:border-box;
     width:100%;
     height:129px;
@@ -76,9 +83,48 @@
     font-size:24px;
 }
 
-.landingpg .landingpg-content-2 .box{
+.landingpg .landingpg-content-2 .boxes{
+    display:flex;
+    justify-content: space-between;
+    width:70%;
+    padding-right:80px;
+}
+
+.landingpg .landingpg-content-2 .boxes .box{
     background-color: white;
-    width:280px;
+    width:40%;
     height:104px;
     border-radius:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px 15px 20px;
+}
+
+.landingpg .landingpg-content-2 .boxes .box .info{
+    margin-left:20px;
+    width:165px;
+}
+
+.landingpg .landingpg-content-2 .boxes .box .info .box-one{
+    color: black;
+    font-size: 13px;
+    margin-bottom:5px;
+}
+
+.landingpg .landingpg-content-2 .boxes .box .info .box-two{
+    color: black;
+    font-size: 13px;
+}
+
+.landingpg .landingpg-content-2 .boxes .box .box-time{
+    color: #064E89;
+    font-size: 13px;
+    // font-family: 'Roboto';
+    margin-bottom:12px;
+}
+
+.landingpg .landingpg-content-2 .boxes .box img{
+    width: 56px;
+    margin-top:10px;
 }
