@@ -5,12 +5,13 @@
 //     background-image: "../../assets/images/Header BG.png";
 // }
 //ask about the background image, the location image, and the font family
-.landingpg{
-    background-color: beige;
-}
 
 *{
     font-family:'Arial';
+}
+
+body {
+    background-image: "./assets/images/headerbg.svg";
 }
 
 

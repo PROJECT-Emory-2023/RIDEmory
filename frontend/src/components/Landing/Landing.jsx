@@ -5,7 +5,7 @@ import { headerbg, location, arrow } from "../../assets/images";
 
 const Landing = () => {
     return (
-        <div className="landingpg">
+        <div style={{backgroundImage:{headerbg}}} className="landingpg">
             <div className="landingpg-content-1">
                 <div class="landingpg-input">
                     <img src={location} alt="location logo" />
