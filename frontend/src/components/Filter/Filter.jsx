@@ -1,9 +1,9 @@
 import React from "react";
-import './landing.scss';
+import './filter.scss';
 import { Button } from "..";
 import { headerbg, location, arrow } from "../../assets/images";
 
-const Landing = () => {
+const Filter = () => {
     return (
         <div style={{backgroundImage:{headerbg}}} className="landingpg">
             <div className="landingpg-content-1">
@@ -46,4 +46,4 @@ const Landing = () => {
 }
 
 
-export default Landing
+export default Filter

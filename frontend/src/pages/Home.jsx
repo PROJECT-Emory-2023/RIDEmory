@@ -1,10 +1,10 @@
-import {Navbar, Landing, Header, Services, Footer, Contact} from "../components"
+import {Navbar, Filter, Header, Services, Footer, Contact} from "../components"
 
 const Home = () => {
   return (
     <div className="Home">
       <Navbar activeLink="home" /> 
-      <Landing/>
+      <Filter/>
       <Header/>
       <Services/>
       <Contact/>

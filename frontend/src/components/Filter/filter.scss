@@ -7,13 +7,8 @@
 //ask about the background image, the location image, and the font family
 
 *{
-    font-family:'Arial';
+    font-family:$font-family;
 }
-
-body {
-    background-image: "./assets/images/headerbg.svg";
-}
-
 
 // Content 1 
 .landingpg .landingpg-content-1{
@@ -142,4 +137,10 @@ body {
 .landingpg .landingpg-content-2 .boxes .box img{
     width: 56px;
     margin-top:10px;
+}
+
+@media (max-width:400px){
+    .landingpg-content-1{
+       
+    }
 }

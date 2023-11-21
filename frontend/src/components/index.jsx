@@ -1,5 +1,5 @@
 import Navbar from "./Navbar/Navbar"
-import Landing from "./Landing/Landing"
+import Filter from "./Filter/Filter"
 import Header from "./Header/Header"
 import Services from "./Services/Services"
 import Contact from "./Contact/Contact"
@@ -9,7 +9,7 @@ import Calendar from "./Calendar/Calendar"
 
 export {
     Navbar,
-    Landing,
+    Filter,
     Header,
     Services,
     Contact,
