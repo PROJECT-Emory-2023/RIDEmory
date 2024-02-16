@@ -5,7 +5,7 @@ import { headerbg, location, arrow } from "../../assets/images";
 
 const Filter = () => {
     return (
-        <div style={{backgroundImage:{headerbg}}} className="landingpg">
+        <div style={{backgroundImage:`url(${headerbg})`}} className="landingpg">
             <div className="landingpg-content-1">
                 <div class="landingpg-input">
                     <img src={location} alt="location logo" />
@@ -15,12 +15,12 @@ const Filter = () => {
                     <img src={location} alt="location logo" />
                     <input type="text" placeholder="From" id="from" />
                 </div>
-                <Button className="search-btn"><p className="search-btn-p">Search</p></Button>
+                <Button className="search-btn">Search</Button>
             </div>
             <p className="words">Plan your travels</p>
             <div className="landingpg-content-2">
                 <div className="landingpg-big-box">
-                    <p>Next Ride</p>
+                    <p className="next-ride">Next Ride</p>
                     <div className="boxes">
                         <div className="box">
                             <img src={arrow} alt="arrow thing"/>

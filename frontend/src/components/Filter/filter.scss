@@ -1,18 +1,11 @@
 @use "../../assets/scss/" as *;
-
-
-// .landingpg{
-//     background-image: "../../assets/images/Header BG.png";
-// }
-//ask about the background image, the location image, and the font family
-
 *{
     font-family:$font-family;
 }
 
 // Content 1 
 .landingpg .landingpg-content-1{
-    padding: 190px 315px 100px 315px;
+    padding: 15vw 20vw 10vw 20vw;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -24,8 +17,8 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    width:295px;
-    height:57px;
+    width:20vw;
+    height:4vw;
     background-color: white;
     border-radius: 15px;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
@@ -40,37 +33,48 @@
     border-radius: 15px;
     width:100%;
     height:100%;
-    font-size:14px;
     border-style: none;
     padding-left:10px;
+    font-size: 1vw;
+}
+
+.landingpg .landingpg-content-1 .landingpg-input input:focus {
+    outline: none;
 }
 
 .landingpg .landingpg-content-1 .search-btn{
     background-color: #064E89;
     color: white;
-    width:112px;
-    height:42px;
+    width:8vw;
+    height:3vw;
     border-radius:5px;
     font-weight:600;
-    font-size:16px;
+    font-size:1vw;
     border-style: none;
     cursor:pointer;
     margin-top:0px;
+    text-align: center;
+}
+
+.landingpg .landingpg-content-1 .search-btn:hover{
+    background-color: #03335a;
+    transition-delay: 0.05s;
 }
 
 
 .landingpg .words{
-    padding:0px 140px;
+    padding:0px 11vw;
     font-size:32px;
     font-weight:bold;
     color: $black;
+
     // font-family:$font-family;
 }
 
 
 // Content 2
 .landingpg .landingpg-content-2 {
-    padding:60px 140px;
+    padding:5vw 10vw;
     box-sizing:border-box;
     display: flex;
     justify-content: center;
@@ -81,11 +85,11 @@
     border-radius:15px;
     box-sizing:border-box;
     width:100%;
-    height:129px;
+    height:140px;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 60px;
+    padding: 0vw 5vw;
 }
 
 .landingpg .landingpg-content-2 p{
@@ -97,13 +101,12 @@
     display:flex;
     justify-content: space-between;
     width:70%;
-    padding-right:80px;
 }
 
 .landingpg .landingpg-content-2 .boxes .box{
     background-color: white;
     width:40%;
-    height:104px;
+    height:110px;
     border-radius:15px;
     display: flex;
     justify-content: center;
@@ -139,8 +142,59 @@
     margin-top:10px;
 }
 
-@media (max-width:400px){
-    .landingpg-content-1{
-       
+
+// SCREENS
+
+
+@media (max-width:1200px){
+    .landingpg .landingpg-content-1{
+       flex-direction: column;
+    }
+    
+    .landingpg .landingpg-content-1 .landingpg-input {
+        width: 50vw;
+        height: 8vh;
+        margin-top: 3vh;
+    }
+
+    .landingpg .landingpg-content-1 .landingpg-input input{
+        font-size: 2vh;
+    }
+
+    .landingpg .landingpg-content-1 .search-btn{
+        width: 50vw;
+        height: 5vh;
+        margin-top: 3vh;
+        font-size: 2vh;
+    }
+
+}
+
+@media (max-width: 955px){
+    
+    .landingpg .landingpg-content-2 .landingpg-big-box .next-ride{
+        padding: 0vh 3vw 2vh 3vw;
+    }
+    .landingpg .landingpg-content-2 .landingpg-big-box{
+        height: 60vh;
+        width: 50vw;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 5vw 5vw;
+    }
+
+    .landingpg .landingpg-content-2 .landingpg-big-box .boxes{
+        width: 100%;
+        height: 50%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .landingpg .landingpg-content-2 .landingpg-big-box .boxes .box {
+        margin-top:10px;
+        padding: 2vw;
+        height: 100%;
+        width: 100%;
     }
 }
+
